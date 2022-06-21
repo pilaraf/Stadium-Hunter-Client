@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.plain-link {
+  text-decoration: none;
+  color: black;
+}
+
+:hover.plain-link {
+  text-decoration: none;
+  color: black;
+}
+
+.button-link-hp {
+  text-decoration: none;
+  color: rgb(10, 9, 9);
+}
+
+:hover.button-link-hp {
+  text-decoration: none;
+  color: rgb(10, 9, 9);
+}
+
+.button-link {
+  text-decoration: none;
+  color: white;
+}
+
+:hover.button-link {
+  text-decoration: none;
+  color: white;
+}
+
+.padTop {
+  padding-top: 110px;
+}
+
+.margin1 {
+  margin-bottom: 20px;
+}
+
+.comment-border {
+  box-sizing: border-box;
+  border: 0.3px solid #a09999;
+}
+
+.margin-btn {
+  margin: 5px 0px;
+}
+
+.puto-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 18px;
+  background-color: rgb(237, 35, 8);
+  border: 2px solid rgb(14, 14, 14);
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.name-st {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(91, 220, 59);
+  border: 2px solid rgb(14, 14, 14);
+  z-index: 1;
+  border-radius: 20%;
+  padding: 5px;
+}
+
+.margin-input {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+.top5 {
+  border: 2px solid rgb(14, 14, 14);
+  min-width: 300px;
+  background-color: rgb(46, 42, 42);
+  color: white;
+  border-radius: 20%;
+}
+
+.shadow-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hunt-details {
+  background-color: rgb(213, 216, 194);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 80vh;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.loading {
+  width: 500px;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  /*  margin: 0;
+  padding: 0; */
+}
+
+.page-background {
+  padding-top: 80px;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  /* margin-top: 50px; */
+
+  background: #00b09b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #96c93d,
+    #00b09b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #96c93d,
+    #00b09b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.page-background {
+  background-image: url("./images/cesped4.jpg") !important;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: -10px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.over {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.home-page-text {
+  color: rgb(250, 249, 249);
+}
+
+.button-hp {
+  margin-bottom: 70px;
+}
+
+.charging {
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.form-top-mg {
+  margin: 10px 0;
+}
+
+marquee {
+  margin-top: -5px;
+  height: 140px;
+}
+
+.ball {
+  max-width: 90px;
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.anonym-page {
+  padding-top: 100px;
+}
+
+.over-top {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: 100px;
+}
+
+.black-text {
+  color: white;
+}
+
+.noResults {
+  margin-left: 140px;
+}
+
+.error {
+  padding-top: 150px;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+.rating {
+  margin-top: 20px;
+}
+
+.greyBtn {
+  background-color: #dfd9d9 !important;
+}
+
+.cardFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video-fw {
+  width: 100%;
+  min-height: 100vh;
+  height: 800px;
+}
+
+.topList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.over-top {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sideMargins {
+  margin: 0px 20px 30px 20px;
+}
+
+.number {
+  font-size: larger;
+  color: white;
+  background-color: brown;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.numberBis {
+  color: rgb(249, 244, 244);
+  background-color: rgb(6, 6, 6);
+  padding: 5px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+
+.goldHunter {
+  background-color: brown !important;
+  color: white;
+  padding: 7px;
+}
+
+.stadiumDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.carrusel {
+  min-height: 200px;
+}
+
+.blankSpace {
+  min-height: 170px;
+}
+
+.etiquetas {
+  background-color: #bde872;
+  border-radius: 10%;
+  padding: 3px;
+  border: 2px solid black;
+}
+
+.properties > h5 {
+  margin: 15px 0;
+}
